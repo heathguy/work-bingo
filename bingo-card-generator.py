@@ -38,7 +38,7 @@ options.append("KS yells at Customer Service")
 #RJ Options
 options.append("RJ says 'Alright'")
 #MV Options
-options.append("Michael 'Calls for da Order'")
+options.append("MV 'Calls for da Order'")
 #MRM Options
 options.append("MRM yells from his office")
 options.append("MRM gives a Dress Down Day")
@@ -49,7 +49,7 @@ options.append("Email is Down")
 options.append("Phones are Down")
 options.append("Internet is not Working")
 #Warehouse Options
-options.append("Steve V makes Inappropriate Joke")
+options.append("Warehouse cannot find a Product")
 #Office Options
 options.append("Fryer Oil is Changed")
 options.append("By Car Order is Called In")
@@ -65,7 +65,7 @@ numOptions = len(options)-1
 card = []
 usedNumbers = []
 cardNum = 1
-for i in range(25):
+for i in range(25): # 25 boxes on a card
 	#print "i: "+str(i)
 	if i == 12:
 		card.append(options[0])
